@@ -18,6 +18,29 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Class.h" />
+    <ClInclude Include="FunDefinition .h" />
+    <ClInclude Include="Head.h" />
+    <ClInclude Include="Menu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddModule.cpp" />
+    <ClCompile Include="Class.cpp" />
+    <ClCompile Include="CreateData.cpp" />
+    <ClCompile Include="DeletModule_name.cpp" />
+    <ClCompile Include="DeletModule_num.cpp" />
+    <ClCompile Include="FindModule_Name.cpp" />
+    <ClCompile Include="FindModule_num.cpp" />
+    <ClCompile Include="Function.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="ModifyModule_name.cpp" />
+    <ClCompile Include="ModifyModule_num.cpp" />
+    <ClCompile Include="Print.cpp" />
+    <ClCompile Include="PrintModule.cpp" />
+    <ClCompile Include="SortModule.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{2FCAE4CB-2DE0-41A4-A8EB-24C8E2A809B1}</ProjectGuid>
@@ -114,8 +137,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
